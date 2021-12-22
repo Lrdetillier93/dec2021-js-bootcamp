@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.titlebar{
+    background-color: black;
+    color: white;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    width: auto;
+    padding-left: 1em;
+}
+
+.heading{
+    display: flex;
+    justify-content: center;
+    width: auto;
+}
+
+.page{
+    display: flex;
+}
+
+.profile{
+    flex-direction: column;
+    border: 5px black solid;
+    padding-bottom: 1em;
+    margin-left: 10px;
+    height: 16em;
+}
+
+.profile img{
+    border-radius: 50%;
+    height: 100px;
+    margin-top: 10px;
+}
+
+.yourinfo{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    align-items: center;
+}
+
+.post{
+    border: 5px black solid;
+    margin-left: 10px;
+    width: 90%;
+    margin-bottom: 15px;
+    padding: 1em;
+}
+
+.top{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.likes{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+}
+
+.likes button{
+    margin-left: 5px;
+    padding: 2px 1em;
+    background-color: #FFD966;
+    border: 1px black solid;
+}
+
+.col-1{
+    flex: 1;
+}
+
+.col-3{
+    flex: 5;
+}
